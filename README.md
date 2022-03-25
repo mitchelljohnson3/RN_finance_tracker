@@ -2,18 +2,10 @@
 
 List of dependencies:
 
-'react-native-paper'
+'react-native-paper' -> gives easy styling and tons of helpful web components
 
-- gives easy styling and tons of helpful web components
+'react-native-paper-tabs' + 'react-native-pager-view' -> gives swipeable top tabs
 
-'react-native-paper-tabs' + 'react-native-pager-view'
+'react-native-paper-dates' -> gives date picker modal for selecting dates
 
-- gives swipeable tabs
-
-'react-native-paper-dates'
-
-- gives date picker modal -> looks really good
-
-'react-native-keyboard-aware-scroll-view'
-
-- a better version of the built in KeyboardAvoidingView
+'react-native-keyboard-aware-scroll-view' -> a better version of the built in KeyboardAvoidingView
