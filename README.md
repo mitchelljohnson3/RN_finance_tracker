@@ -1,3 +1,5 @@
+# Financial Tracker built with React Native!
+
 List of dependencies:
 
 'react-native-paper'
