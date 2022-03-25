@@ -11,6 +11,5 @@
 'react-native-keyboard-aware-scroll-view' -> a better version of the built in KeyboardAvoidingView
 
 # Demonstration
-**Submitting a Transaction**
 <img src="https://user-images.githubusercontent.com/46547228/160215458-37afef4e-6cba-4233-ab4e-f1a029803b43.gif" width="50%">
 <img src="https://user-images.githubusercontent.com/46547228/160215569-562cf54e-6acc-4f9a-a3b9-c247b266ddb9.gif" width="50%">
