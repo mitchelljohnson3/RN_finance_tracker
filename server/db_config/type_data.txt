@@ -1,0 +1,2 @@
+INSERT INTO Type(id,name) VALUES('E',"Expense");
+INSERT INTO Type(id,name) VALUES('I',"Income");

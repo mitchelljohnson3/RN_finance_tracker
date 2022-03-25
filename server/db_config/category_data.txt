@@ -1,0 +1,5 @@
+INSERT INTO Category(id,name) VALUES('S', "Supplies");
+INSERT INTO Category(id,name) VALUES('T', "Tax");
+INSERT INTO Category(id,name) VALUES('I', "Insurance");
+INSERT INTO Category(id,name) VALUES('E', "Etsy");
+INSERT INTO Category(id,name) VALUES('M', "Market");

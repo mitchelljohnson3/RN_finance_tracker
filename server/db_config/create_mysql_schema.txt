@@ -1,0 +1,30 @@
+CREATE TABLE Category(
+        id CHAR(1) NOT NULL UNIQUE,
+        name VARCHAR(10),
+        PRIMARY KEY(id)
+    );
+CREATE TABLE Type(
+        id CHAR(1) NOT NULL UNIQUE,
+        name VARCHAR(10),
+        PRIMARY KEY(id)
+    );
+CREATE TABLE Theme(
+        id INT NOT NULL AUTO_INCREMENT,
+        primary_c VARCHAR(7) NOT NULL,
+        accent VARCHAR(7) NOT NULL,
+        text VARCHAR(7) NOT NULL,
+        background VARCHAR(7) NOT NULL,
+        unselected VARCHAR(7) NOT NULL,
+        PRIMARY KEY(id)
+    );
+CREATE TABLE Transactions(
+        id INT NOT NULL AUTO_INCREMENT,
+        TypeID CHAR(1) NOT NULL,
+        CategoryID CHAR(1) NOT NULL,
+        amount INT NOT NULL,
+        date DATE NOT NULL,
+        description VARCHAR(50),
+        PRIMARY KEY(id),
+        FOREIGN KEY(CategoryID) REFERENCES Category(id),
+        FOREIGN KEY(TypeID) REFERENCES Type(id)
+    );
