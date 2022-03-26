@@ -21,4 +21,11 @@ Filtering Transaction Results         |  Transaction Summary | Customizable Them
 :-------------------------:|:-------------------------: | :------------------:  
 <img src="https://user-images.githubusercontent.com/46547228/160217828-ce05cedb-55cc-420e-b03c-b2a96970c649.gif" width="100%">     |  <img src="https://user-images.githubusercontent.com/46547228/160217834-2ed24f1c-7ada-423d-a4e5-3a46acf14e1b.gif" width="100%"> | <img src="https://user-images.githubusercontent.com/46547228/160217837-15ac7b81-2b78-45fe-bbed-64105e5109e4.gif" width="100%"> 
 
+# My Rationale
+- Hello! I made this app because a good friend of mine needed a way to track and manage their finances for their Etsy shop.
 
+# Details on the project
+- I only ever tested this on an IOS simulator, so I am not sure how it will look on Android or the web.
+- I personally set up a free tier AWS MySQL database, and hosted the express server on heroku.
+- There is NO protection against SQL attacks, this was not a priority for me, even though its extremely easy to implement.
+- Feel free to use any part of this project for anything you'd like.
