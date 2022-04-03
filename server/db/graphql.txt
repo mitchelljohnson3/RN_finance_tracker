@@ -1,0 +1,16 @@
+type Type {
+    id: ID!,
+    name: String!
+}
+type Category {
+    id: ID!,
+    name: String!
+}
+type Transactions {
+    id: ID!,
+    TypeID: Character!,
+    CategoryID: Character!,
+    amount: Int!,
+    date: Date!,
+    description: String,
+}

@@ -68,7 +68,7 @@ const TransactionScreen = ({ filter, setFilter, theme }) => {
           }}
         >
           <AccordianList
-            title="Transaction Type"
+            title="Type"
             options={typeOptions}
             value={type}
             onPress={updateType}
@@ -77,7 +77,7 @@ const TransactionScreen = ({ filter, setFilter, theme }) => {
         {divider()}
         <View style={{ flex: 0.5, zIndex: 1 }}>
           <AccordianList
-            title="Transaction Category"
+            title="Category"
             options={type === "Expense" ? expenseOptions : incomeOptions}
             value={category}
             onPress={setCategory}
