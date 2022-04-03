@@ -1,4 +1,4 @@
-const query = require("./connection");
+sconst query = require("./connection");
 
 const submitTransaction = async (data) => {
   const { typeid, categoryid, amount, date, description } = data;
