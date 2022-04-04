@@ -6,7 +6,7 @@ const submitTransaction = async (data) => {
                   values('${typeid}','${categoryid}',${amount},"${date}","${description}")`;
   console.log("inserted new transaction");
   return await query(_query);
-};
+}z;
 
 const deleteTransaction = async (data) => {
   const _query = `delete from Transactions where id = ${data.id}`;
